@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Basilic &amp; Braise</title>
+    <link rel="icon" href="images/favicon-basilic-braise.ico" sizes="any">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <section class="logotitre">
+                <h1>Basilic & Braise</h1>
+                <img src="images/Logo.png" alt="Logo de restaurant Basilic & Braise" class="logo">
+            </section>
+
+            <button class="burger" aria-label="Menu">
+            ☰
+            </button>
+
+            <nav aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#menu">Galerie/Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="apropos">
+            <div class="apropos-container">
+                <div class="apropos-image">
+                    <img src="images/deventure.png" alt="Devanture du restaurant Basilic & Braise">
+                </div>
+                <div class="apropos-texte">
+                    <h2>À propos</h2>
+                    <p>
+                    Bienvenue chez <strong>Basilic & Braise</strong>, un bistrot moderne où se rencontrent
+                    la fraîcheur des herbes et la chaleur de la braise. Nous travaillons des produits
+                    locaux et de saison pour vous offrir une cuisine authentique, simple et généreuse.
+                    Ici, chaque plat est préparé avec passion, dans une ambiance conviviale et chaleureuse.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="galeriemenu">
+            <h2>Menu & Galerie</h2>
+
+            <div class="menu-container">
+                <div class="menu-image">
+                    <img src="images/Menu_Basilic_Braise_centered.png" alt="Menu Basilic & Braise (entrées, plats, desserts)">
+                </div>
+
+                <div class="menu-galerie">
+                    <figure>
+                        <img src="images/Saladeifraicheur.png" alt="Salade fraîcheur, basilic et agrumes">
+                        <figcaption>Salade fraîcheur</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/Veloute-de-saison.png" alt="Velouté de saison crémeux">
+                        <figcaption>Velouté de saison</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/poulet-roti.png" alt="Poulet rôti au basilic">
+                        <figcaption>Poulet rôti au basilic</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/Saumon.png" alt="Saumon braisé, citron">
+                        <figcaption>Saumon braisé</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/Risotto-cremeux.png" alt="Risotto crémeux parmesan">
+                        <figcaption>Risotto crémeux</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/panna-cotta-vanille-coulis-fruits-rouges.png" alt="Panna cotta vanille, fruits rouges">
+                        <figcaption>Panna cotta vanille</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/Tiramisu-maison-au-cafe-basilic.png" alt="Tiramisu maison café & basilic">
+                        <figcaption>Tiramisu maison</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/Moelleux-chocolat-cœur-fondant.png" alt="Moelleux chocolat cœur fondant">
+                        <figcaption>Moelleux chocolat</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Réserver une table</h2>
+
+            <form class="contact-form">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="date">Date de réservation :</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+
+            <div class="contact-info">
+                <p><strong>Téléphone :</strong> 01 23 45 67 89</p>
+                <p><strong>Adresse :</strong> 123 Rue du Basilic, 76000 Rouen</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2025 Basilic & Braise – Tous droits réservés</p>
+        <p>Visuel générées avec AI</p>
+    </footer>
+</body>
+</html>
